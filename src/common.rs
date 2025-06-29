@@ -1004,7 +1004,7 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "http://197.yirens.top".to_owned()
+    "http://197.yirens.top:21114".to_owned()
 }
 
 #[inline]
